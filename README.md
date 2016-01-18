@@ -7,3 +7,15 @@
 
 #### 竖屏
 ![Mou icon](https://github.com/riversea2015/iPad-UICollectionView/blob/master/screenshot_2.png?raw=true)
+
+#### Author
+
+he hai, hehai682@126.com
+
+#### License
+
+iPad-UICollectionView is available under the MIT license. See the LICENSE file for more info.
+
+#### Notes
+
+...
