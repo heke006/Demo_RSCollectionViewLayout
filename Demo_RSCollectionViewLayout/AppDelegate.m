@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "RSMainViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,17 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
+    
+    [[UINavigationBar appearance] setBarStyle:UIBarStyleBlack];
+    
+    RSMainViewController *mainVC = [[RSMainViewController alloc] init];
+    UINavigationController *navi = [[UINavigationController alloc] initWithRootViewController:mainVC];
+    
+    self.window.rootViewController = navi;
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

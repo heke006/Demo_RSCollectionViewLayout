@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  RSDemoCollectionViewCell.h
 //  Demo_RSCollectionViewLayout
 //
 //  Created by hehai on 1/16/16.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface RSDemoCollectionViewCell : UICollectionViewCell
 
 @end
-
